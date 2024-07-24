@@ -12,6 +12,7 @@ export const About = (props) => {
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
               <h2>About Us</h2>
+              <div resource="urn:aemconnection:/content/react/us/en/about-us/jcr:content/parsys1/guideformtitle" prop="_value" type="text"/>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
               <h3>Why Choose Us?</h3>
               <div className="list-style">
